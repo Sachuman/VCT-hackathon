@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["src/**/*"], // Adjust the path based on your project's structure
+  "exclude": ["node_modules"] // Optional, but recommended
+}
